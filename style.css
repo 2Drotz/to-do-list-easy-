@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+.container {
+   font-family: 'Pacifico', cursive;
+   background-color: rgb(255, 254, 182);
+   margin: auto;
+   min-height: 90vh;
+   width: 400px;
+   text-align: center;
+   border: 2px solid #000;
+}
+
+.allList {
+   margin-left: 20px;
+   text-align: left;
+}
+
+#eraser {
+   cursor: pointer;
+}
+
+#input {
+   border: 2px solid #000;
+   border-radius: 15px;
+   padding: 10px 30px;
+   font-size: 14px;
+}
