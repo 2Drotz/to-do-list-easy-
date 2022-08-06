@@ -23,7 +23,7 @@ function addList() {
    allList.insertAdjacentElement('beforeend', h2);
 
    h2.addEventListener('click', () => {
-      h2.style.textDecoration = 'line-through';
+      h2.classList.toggle('active');
    });
 }
 

@@ -25,3 +25,11 @@
    padding: 10px 30px;
    font-size: 14px;
 }
+
+.active {
+   text-decoration: line-through;
+}
+
+h2 {
+   cursor: pointer;
+}
